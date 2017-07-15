@@ -1,0 +1,18 @@
+{
+    "name": "UWH.org Copy/Mockup",
+    "version": "0.1.0",
+    "description": "UWH.org Copy/Mockup",
+    "main": "app.js",
+    "engines": {
+        "node": "6.11.1",
+        "npm": "3.10.10"
+    },
+    "dependencies": {
+        "express": "~4.13.3",
+        "body-parser": "~1.15.0",
+        "nunjucks": "~3.0.1",
+        "nunjucks-date": "~1.2.0"
+    },
+    "author": "Michael Goetti",
+    "license": "0BSD"
+}

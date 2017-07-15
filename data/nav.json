@@ -1,0 +1,101 @@
+{"topnav": [
+  {
+    "title": "About",
+    "titleCaps": "ABOUT",
+    "items": [
+      "Our Mission",
+      "Board and Leadership",
+      "Financials",
+      "Community Investment",
+      "United Way Agencies & Grantees",
+      "Special Grants",
+      "Centers",
+      "Community Resource Center",
+      "Volunteers",
+      "Careers",
+      "FAQs",
+      "Contact Us"
+    ]
+  },
+  {
+    "title": "Job Bank",
+    "titleCaps": "JOB BANK",
+    "items": []
+  },
+  {
+    "title": "News",
+    "titleCaps": "NEWS",
+    "items": [
+      "Media Clips",
+      "Press Releases",
+      "Publications"
+    ]
+  },
+  {
+    "title": "Nonprofit Connection",
+    "titleCaps": "NONPROFIT CONNECTION",
+    "items": [
+      "Workshops & Events",
+      "Computer Classes",
+      "Management Consulting",
+      "Leadership Development",
+      "Board Development",
+      "Interagency Meetings",
+      "CRC Meeting Space",
+      "Grant Opportunities"
+    ]
+  },
+  {
+    "title": "Our 211 Helpline",
+    "titleCaps": "OUR 211 HELPLINE",
+    "items": []
+  }
+],
+"bottomnav": [
+  {
+    "title": "Why United Way?",
+    "titleCaps": "WHY UNITED WAY?",
+    "items": []
+  },
+  {
+    "title": "Our Work",
+    "titleCaps": "OUR WORK",
+    "items": [
+      "Academic Success",
+      "Family Stability",
+      "Circle of Life",
+      "2-1-1 Texas/United Way HELPLINE"
+    ]
+  },
+  {
+    "title": "Your Campaign",
+    "titleCaps": "YOUR CAMPAIGN",
+    "items": [
+      "How to Run a Workplace Campaign",
+      "Campaign Toolbox",
+      "Campaign Events",
+      "Day of Caring"
+    ]
+  },
+  {
+    "title": "Donor Groups",
+    "titleCaps": "DONOR GROUPS",
+    "items": [
+      "Become a United Way Donor",
+      "United Way LINC",
+      "Young Leaders",
+      "Women's Initiative",
+      "Chairman's Club",
+      "Impact Circle",
+      "Leadership Circle",
+      "Alexis de Tocqueville Society",
+      "Diamond Donors",
+      "Photo Galleries"
+    ]
+  },
+  {
+    "title": "Donate",
+    "titleCaps": "DONATE",
+    "items": []
+  }
+]}

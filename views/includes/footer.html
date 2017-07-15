@@ -1,0 +1,146 @@
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-left-linkbox">
+        <div class="footer-left-links">
+
+          <h7><b><a href="#">{{bottomnav[0].title}}</a></b></h7>
+          <ul>
+            {% for item in bottomnav[0].items %}
+            <li>
+              <a href="#">{{item}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <h7><b><a href="#">{{bottomnav[1].title}}</a></b></h7>
+          <ul>
+            {% for item in bottomnav[1].items %}
+            <li>
+              <a href="#">{{item}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <h7><b><a href="#">{{bottomnav[3].title}}</a></b></h7>
+          <ul>
+            {% for item in bottomnav[3].items %}
+            <li>
+              <a href="#">{{item}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+        </div>
+        <div class="footer-left-links">
+
+          <h7><b><a href="#">{{bottomnav[2].title}}</a></b></h7>
+          <ul>
+            {% for item in bottomnav[2].items %}
+            <li>
+              <a href="#">{{item}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <h7><b><a href="#">{{topnav[0].title}}</a></b></h7>
+          <ul>
+            {% for item in topnav[0].items %}
+            <li>
+              <a href="#">{{item}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+        </div>
+        <div class="footer-left-links">
+
+          <h7><b><a href="#">{{topnav[3].title}}</a></b></h7>
+          <ul>
+            {% for item in topnav[3].items %}
+            <li>
+              <a href="#">{{item}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <h7><b><a href="#">{{topnav[1].title}}</a></b></h7>
+          <ul>
+            {% for item in topnav[1].items %}
+            <li>
+              <a href="#">{{item}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <h7><b><a href="#">{{topnav[2].title}}</a></b></h7>
+          <ul>
+            {% for item in topnav[2].items %}
+            <li>
+              <a href="#">{{item}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+        </div>
+        <div class="footer-left-links">
+
+          <h7><b><a href="#">{{topnav[4].title}}</a></b></h7>
+          <ul>
+            {% for item in topnav[4].items %}
+            <li>
+              <a href="#">{{item}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <h7><b><a href="#">{{bottomnav[4].title}}</a></b></h7>
+          <ul>
+            {% for item in bottomnav[4].items %}
+            <li>
+              <a href="#">{{item}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <p><a href="#">View our privacy policy</a></p>
+
+        </div>
+      </div>
+      <div class="footer-right-linkbox">
+        <h7><b>United Way of Greater Houston</b></h7>
+        <p>50 Waugh Drive <br />
+          Houston, Texas  77007 <br />
+          713-685-2300</p>
+
+          <a href="#" class="footer-logos"><img src="../../static/img/icon-youtube-sm.png" /></a>
+          <a href="#" class="footer-logos"><img src="../../static/img/icon-facebook-sm.png" /></a>
+          <a href="#" class="footer-logos"><img src="../../static/img/icon-instagram-sm.png" /></a>
+          <a href="#" class="footer-logos"><img src="../../static/img/icon-twitter-sm.png" /></a>
+      </div>
+    </footer>
+
+    <p id="foot-copy">
+      © Copyright 2017 - United Way of Greater Houston
+    </p>
+
+<!-- jQuery -->
+<script src="/static/js/jquery-3.2.1.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/static/js/bootstrap.min.js"></script>
+
+<!-- Slippry slider JavaScript -->
+<script src="/static/js/slippry.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $('#slider').slippry({
+    // transitions
+  transition: 'horizontal', // fade, horizontal, kenburns, false
+  speed: 1200,
+  pause: 8000,
+  pager: false,
+  })
+});
+</script>
