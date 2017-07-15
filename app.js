@@ -270,11 +270,14 @@ env.addFilter("date", nunjucksDate);
 
     // Use the router routes in our application
     app.use('/', router);
+    var port = process.env.PORT || 5000;
+
 
     // Start the server listening
-    var server = app.listen(3000, function() {
+    var server = app.listen(port, function() {
         var port = server.address().port;
         console.log('UWHCopy server listening on port %s.', port);
     });
+
 
 // });

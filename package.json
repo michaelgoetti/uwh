@@ -1,5 +1,5 @@
 {
-    "name": "UWH.org Copy/Mockup",
+    "name": "UWH.org_Mockup",
     "version": "0.1.0",
     "description": "UWH.org Copy/Mockup",
     "main": "app.js",
@@ -14,5 +14,8 @@
         "nunjucks-date": "~1.2.0"
     },
     "author": "Michael Goetti",
-    "license": "0BSD"
+    "license": "0BSD",
+    "scripts": {
+      "start": "node app.js"
+    }
 }
