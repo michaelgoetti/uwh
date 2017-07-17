@@ -1,0 +1,29 @@
+{"blurb": [
+  {
+    "home": "We transform individual lives and bring long-lasting, systemic change to tough issues, like family financial stability and academic success."
+  },
+  {
+    "about": "We transform individual lives and bring long-lasting, systemic change to tough issues, like family financial stability and academic success."
+  },
+  {
+    "job-bank": "The best prospects for nonprofit positions begin their search with United Way of Greater Houston’s Community Job Bank."
+  },
+  {
+    "news": "See United Way in the news, browse our press releases and download our Annual Report, Community Assessment and more. For media inquiries, contact Lynne Cook at 713-685-2829."
+  },
+  {
+    "nonprofit-connection": "United Way Nonprofit Connection provides the knowledge and skills that nonprofits need to achieve their mission and exceed their potential."
+  },
+  {
+    "our-211-helpline": "Need help? Dial 2-1-1. A free helpline operated by United Way of Greater Houston - 24 hours a day, 7 days a week in many languages."
+  }
+],
+ "slider": [
+   {"home": ["../static/img/hero1.jpg", "../static/img/hero2.jpg", "../static/img/hero3.jpg"]},
+   {"about": ["../static/img/about1.jpg"]},
+   {"job-bank": []},
+   {"news": ["../static/img/news1.jpg"]},
+   {"nonprofit-connection": ["../static/img/npc1.jpg"]},
+   {"home": ["../static/img/hero4.jpg"]}
+ ]
+}

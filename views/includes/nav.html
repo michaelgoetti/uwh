@@ -1,67 +1,87 @@
+<!-- menu button for when header collapses on screen size <= 640px -->
+<div id="button-main">
+  <span id="button-text">MENU</span>
+  <div class="button-bar"></div>
+  <div class="button-bar"></div>
+  <div class="button-bar"></div>
+</div>
+
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
     <div class="my-container">
         <!-- Brand and toggle get grouped for better mobile display -->
+
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
             <a class="navbar-brand" href="/">
-              <img class="navbar-logo" src="./static/img/unitedway-logo.png"  />
+              <img class="navbar-logo img-responsive" src="./static/img/unitedway-logo.png"  />
             </a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav nav-top">
+        <div id="nav-accordion-menu">
+          <ul id="nav-accordion-expand-ul" class="hide-menu">
+            {% for obj in range(0, topnav.length) %}
+            <li>
+              <a class="nav-ul-link" href="{{obj.page}}">{{obj.titleCaps}}</a>
+            </li>
+            {% endfor %}
+            {% for obj in range(0, bottomnav.length-1) %}
+            <li>
+              {{bottomnav[obj].titleCaps}}
+            </li>
+            {% endfor %}
+            <li id="nav-acc-blue-donate" class="no-border"> <!-- only this shows when collapsed -->
+              DONATE
+            </li>
+            <li class="search-inmenu">
+              <input type='text' placeholder='SEARCH' id='search-text-input' />
+                <img src='./static/img/mglass.png' />
+            </li>
+          </ul>
+          <div id="nav-acc-blue-donate"> <!-- only this shows when collapsed -->
+            DONATE
+          </div>
+        </div>
+        <!-- /.navbar-collapse -->
+          <div id="navbar-gt-640">
+            <ul class="nav-ul nav-ul-top">
               {% for obj in topnav %}
               <li>
-                <a href="#">{{obj.titleCaps}}</a>
+                <a class="nav-ul-link" href="{{obj.page}}">{{obj.titleCaps}}</a>
                 {% if obj.items.length > 0 %}
-                <div class="hover-menu">
+                <ul class="hover-menu">
                   {% for item in obj.items %}
-                  <p>
-                    <a href="#">{{item}}</a>
-                  </p>
+                  <li>
+                    <a class="nav-ul-link" href="#">{{item}}</a>
+                  </li>
                   {% endfor %}
-                </div>
+                </ul>
                 {% endif %}
               </li>
               {% endfor %}
-              <li class="search">
-                <input type='text' placeholder='SEARCH' id='search-text-input' />
-                <!-- <div id='button-holder'> -->
-                  <img src='./static/img/mglass.png' />
-                <!-- </div> -->
-              </li>
             </ul>
-            <ul class="nav navbar-nav nav-bottom">
+            <div class="search">
+              <input type='text' placeholder='SEARCH' id='search-text-input' />
+                <img src='./static/img/mglass.png' />
+            </div>
+
+
+            <ul class="nav-ul nav-ul-bottom">
               {% for obj in bottomnav %}
               <li>
-                <a href="#">{{obj.titleCaps}}</a>
+                <a class="nav-ul-link" href="#">{{obj.titleCaps}}</a>
                 {% if obj.items.length > 0 %}
-                <div class="hover-menu">
+                <ul class="hover-menu">
                   {% for item in obj.items %}
-                  <p>
-                    <a href="#">{{item}}</a>
-                  </p>
+                  <li>
+                    <a class="nav-ul-link" href="#">{{item}}</a>
+                  </li>
                   {% endfor %}
-                </div>
+                </ul>
                 {% endif %}
               </li>
               {% endfor %}
-              <!-- <li class="span__nav-bottom"><a href="#">WHY UNITED WAY?</a></li>
-  						<li class="span__nav-bottom"><a href="#">OUR WORK</a></li>
-  						<li class="span__nav-bottom"><a href="#">YOUR CAMPAIGN</a></li>
-  						<li class="span__nav-bottom"><a href="#">DONOR GROUPS</a></li>
-  						<li id="span__donate" class="span__nav-bottom">DONATE<a href="#"></a></li> -->
             </ul>
-        </div>
-
-
-        <!-- /.navbar-collapse -->
+          </div>
+        <!-- / nav-ul-container -->
     </div>
     <!-- /.container -->
 </nav>

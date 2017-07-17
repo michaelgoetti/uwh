@@ -112,11 +112,12 @@
         <p>50 Waugh Drive <br />
           Houston, Texas  77007 <br />
           713-685-2300</p>
-
+        <div>
           <a href="#" class="footer-logos"><img src="../../static/img/icon-youtube-sm.png" /></a>
           <a href="#" class="footer-logos"><img src="../../static/img/icon-facebook-sm.png" /></a>
           <a href="#" class="footer-logos"><img src="../../static/img/icon-instagram-sm.png" /></a>
           <a href="#" class="footer-logos"><img src="../../static/img/icon-twitter-sm.png" /></a>
+        </div>
       </div>
     </footer>
 
@@ -141,6 +142,13 @@ $(document).ready(function(){
   speed: 1200,
   pause: 8000,
   pager: false,
+  responsive: true
   })
 });
+
+$('#button-main').click(function() {
+  // expand/collapse menu
+  $('#nav-accordion-expand-ul').toggleClass("hide-menu");
+})
+
 </script>

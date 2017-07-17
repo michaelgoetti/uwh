@@ -1,5 +1,6 @@
 {"topnav": [
   {
+    "page": "about",
     "title": "About",
     "titleCaps": "ABOUT",
     "items": [
@@ -18,11 +19,13 @@
     ]
   },
   {
+    "page": "job-bank",
     "title": "Job Bank",
     "titleCaps": "JOB BANK",
     "items": []
   },
   {
+    "page": "news",
     "title": "News",
     "titleCaps": "NEWS",
     "items": [
@@ -32,6 +35,7 @@
     ]
   },
   {
+    "page": "nonprofit-connection",
     "title": "Nonprofit Connection",
     "titleCaps": "NONPROFIT CONNECTION",
     "items": [
@@ -46,6 +50,7 @@
     ]
   },
   {
+    "page": "our-211-helpline",
     "title": "Our 211 Helpline",
     "titleCaps": "OUR 211 HELPLINE",
     "items": []
